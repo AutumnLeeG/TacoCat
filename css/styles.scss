@@ -1,0 +1,26 @@
+$color-primary: #3046C5;
+$color-secondary: white;
+$color-pale: gray;
+$color-mid: #ffa34df3;
+$color-dark: #8a4301e0;
+
+$body-font: "Open Sans", sans-serif;
+$header-font: "Lobster", cursive;
+
+body {
+    font-family: $body-font;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30xp;
+    background-image: repeating-linear-gradient(to right, $color-pale, $color-secondary, $color-mid);
+    color: white;
+}
+
+    .navbar-dark {
+        background-color: $color-dark;
+    }
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
