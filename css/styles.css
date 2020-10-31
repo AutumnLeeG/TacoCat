@@ -1,0 +1,16 @@
+body {
+    font-weight: "Open sans", sans-serif;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30xp;
+    background-image: repeating-linear-gradient(to right, gray, white, #ffa34df3);
+    color: white;
+
+    .navbar-dark {
+        background-color: #901CAD;
+    }
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
